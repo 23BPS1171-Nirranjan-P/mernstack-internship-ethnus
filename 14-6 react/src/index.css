@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 36px;
+  color: #00ffcc;
+}
+
+.faq-item button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.faq-item p {
+  background: #444;
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.movies input {
+  padding: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.movie-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  background: #2c2c2c;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.poster-placeholder {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #111;
+}
